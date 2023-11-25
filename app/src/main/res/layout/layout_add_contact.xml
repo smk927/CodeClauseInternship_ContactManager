@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/new_contact_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:lineSpacingExtra="10sp"
+        android:text="New Contact"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="top"
+        android:hint=" Contact Name "
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:inputType="textCapSentences|textMultiLine"
+        android:lines="4"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="top"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:hint=" Contact Number "
+        android:inputType="textCapSentences|textMultiLine"
+        android:lines="4"
+        android:textSize="16sp" />
+
+</LinearLayout>
